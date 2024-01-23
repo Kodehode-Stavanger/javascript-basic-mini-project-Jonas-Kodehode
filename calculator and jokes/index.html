@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="calculator-section">
+      <input type="number" id="input" />
+      <select name="operators" id="input2">
+        <option value="plus">+</option>
+        <option value="minus">-</option>
+        <option value="times">*</option>
+        <option value="divided-by">/</option>
+      </select>
+      <input type="number" id="input3" />
+      <button type="submit" onclick="calculator()">Calculate</button>
+      <p id="result"></p>
+    </section>
+    <hr class="line-breaker" />
+    <section id="joke-generator">
+      <h1>Random Joke Generator</h1>
+      <p id="joke-setup"></p>
+      <p id="joke-punchline"></p>
+      <button id="joke-button">Press here to get a joke</button>
+    </section>
+  </body>
+</html>
