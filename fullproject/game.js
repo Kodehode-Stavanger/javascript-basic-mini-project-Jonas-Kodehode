@@ -38,7 +38,8 @@ function updateStatus() {
 
 function imageChange() {
   if (pet.health === 0 || pet.happiness === 0) {
-    image.src = "pictures/animalpicture-dead.png";
+    image.src =
+      "https://github.com/Kodehode-Stavanger/javascript-basic-mini-project-Jonas-Kodehode/blob/main/fullproject/pictures/animalpicture-dead.png?raw=true";
   } else {
     image.src =
       "https://github.com/Kodehode-Stavanger/javascript-basic-mini-project-Jonas-Kodehode/blob/main/petsimulator/pictures/animalpicture.png?raw=true";
