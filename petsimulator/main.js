@@ -30,7 +30,7 @@ function updateStatus() {
   document.getElementById("health").textContent = `Health: ${pet.health}`;
   document.getElementById(
     "happiness"
-  ).textContent = `Happines: ${pet.happiness}`;
+  ).textContent = `Happiness: ${pet.happiness}`;
 }
 
 // Denne funksjonen får liv og glede til å gå ned tilfeldig fra 1-10 hvert 1-10 sekund
