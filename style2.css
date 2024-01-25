@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(https://github.com/Kodehode-Stavanger/javascript-basic-mini-project-Jonas-Kodehode/blob/main/petsimulator/pictures/background.png?raw=true);
+  background-image: url(https://github.com/Kodehode-Stavanger/javascript-basic-mini-project-Jonas-Kodehode/blob/main/pictures/background.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,7 +16,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  background-color: #4e54c8;
+  background-color: #c5c5c5;
   padding: 20px;
 }
 
@@ -91,6 +91,13 @@ li {
   margin: 20px;
   padding: 50px;
   cursor: pointer;
+}
+
+h4 {
+  text-align: end;
+  color: #242424;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Animasjonene */

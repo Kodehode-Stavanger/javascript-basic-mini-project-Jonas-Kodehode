@@ -8,7 +8,7 @@
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  background-color: #4e54c8;
+  background-color: #c5c5c5;
   padding: 20px;
 }
 
@@ -56,4 +56,5 @@ li {
   border-radius: 20px;
   border: 2px solid #9ca1ff;
   background: linear-gradient(to top, #4e54c8, #8f94fb);
+  cursor: pointer;
 }
